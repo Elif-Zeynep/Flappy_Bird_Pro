@@ -128,6 +128,7 @@ public class GameManager : MonoBehaviour
         {
             _bestScore = _score;
             PlayerPrefs.SetInt("HighScore", _bestScore);
+            _bestScoreText.text = "Best: " + _bestScore;
         }
     }
 
