@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5A49FA6C-0024-4B04-BED9-E21CD79FBCA5}</ProjectGuid>
+    <ProjectGuid>{EE5262F2-D775-C820-540C-26D874F12D77}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,13 +53,16 @@
     <UnityVersion>2020.3.39f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\CloudMovement.cs" />
+    <Compile Include="Assets\Scripts\PipeMovement.cs" />
+    <Compile Include="Assets\Scripts\CloudSpawner.cs" />
     <Compile Include="Assets\Scripts\BackgroundParallax.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PipeSpawner.cs" />
-    <Compile Include="Assets\Scripts\PipeMovement.cs" />
-    <Compile Include="Assets\Scripts\CloudSpawner.cs" />
-    <Compile Include="Assets\Scripts\CloudMovement.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
